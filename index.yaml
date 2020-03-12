@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  bootstrap:
+  - apiVersion: v1
+    appVersion: 0.1.2
+    created: "2020-03-12T03:20:19.524286498Z"
+    description: Helm chart for Bootstrapping apps for telliott.io
+    digest: ecd5c5ae8f27861aa10cdf5b5b4d53445267e6b691c864fb2d2700b4d4b4bee7
+    name: bootstrap
+    urls:
+    - https://github.com/telliott-io/bootstrap/releases/download/bootstrap-0.1.2/bootstrap-0.1.2.tgz
+    version: 0.1.2
+generated: "2020-03-12T03:20:19.410489693Z"
