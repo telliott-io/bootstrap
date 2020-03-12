@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: emojicode
+  name: applications
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: .
-    repoURL: https://github.com/telliott-io/emojicode-playground-deploy
+    repoURL: https://github.com/telliott-io/applications
     targetRevision: HEAD
   syncPolicy:
     automated: {}
