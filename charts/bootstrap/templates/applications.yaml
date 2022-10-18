@@ -14,5 +14,8 @@ spec:
     path: .
     repoURL: https://github.com/telliott-io/applications
     targetRevision: HEAD
+    helm:
+      values: |
+        domain: {{ .Values.domain }}
   syncPolicy:
     automated: {}
